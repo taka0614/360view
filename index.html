@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
   </head>
 
-  <body style="background-color: transparent;">
+  <body>
     <!-- simply iniatialize it with class name "cloudimage-360", server folder path, file name and amount of images -->
     <div
       class="cloudimage-360"
@@ -16,4 +16,12 @@
     <!-- Add script tag with CDN link to js-cloudimage-360-view lib after all content in body tag -->
     <script src="https://scaleflex.cloudimg.io/v7/plugins/js-cloudimage-360-view/latest/js-cloudimage-360-view.min.js?func=proxy"></script>
   </body>
+
+  <style>
+    html, body {
+        background: transparent;  /* iframe自体の背景は透過. */
+    }
+    
+  </style>
+
 </html>
